@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Favorite Places</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      flex-direction: row;
+    }
+    .sidebar {
+      flex: 0.2;
+    }
+    .main-content-area {
+      flex: 1;
+    }
+    #map {
+      min-width: 400px;
+      min-height: 800px;
+    }
+  </style>
+  <body>
+    <div class="sidebar">
+      <h1>My fav places on earth v1.0</h1>
+      <div id="citiesList"></div>
+    </div>
+    <div class="main-content-area">
+      <div id="map"></div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6aerNte7_ld6Fve-ilqH5RSaEAtgUrIY"></script>
+    <script src="../dist/main.js"></script>
+  </body>
+</html>
