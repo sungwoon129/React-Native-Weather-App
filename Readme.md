@@ -1,1 +1,1 @@
-Webpack 학습을 위한 tutorial 예제입니다
+React Native를 활용해 만든 날씨 앱입니다.
